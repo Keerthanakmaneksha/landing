@@ -162,3 +162,104 @@ header section.container nav.right ul li  a.button {
 	display: inline-block;	
 	border-radius: 8px;
 }
+#spotlight { 
+	padding: 100px 0px 200px 0px;
+}
+
+#spotlight section.spot_container { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#spotlight section.spot_container div.left { 
+
+}
+
+#spotlight section.spot_container div.left div.top { 
+
+}
+
+#spotlight section.spot_container div.left div.top h5 { 
+	font-size: 18px;
+	color: #FE9A52;
+	font-weight: 600;
+}
+
+#spotlight section.spot_container div.left div.top h1 { 
+	font-size: 74px;
+	max-width: 700px;
+	color: #1e1e1e;
+	margin: 40px 0;
+}
+
+#spotlight section.spot_container div.left div.top p { 
+	font-size: 18px;
+	color: #898989;
+	margin-bottom: 40px;
+}
+
+#spotlight section.spot_container div.left div.top div.box { 
+	display: flex;
+}
+
+#spotlight section .spot_container div.left div.top div.box form { 
+
+}
+
+#spotlight section.spot_container div.left div.top div.box form input[type=text] { 
+	color: #898989; 
+	background: rgb(243, 241, 241);
+	border: 1px solid  rgb(243, 241, 241) ;
+	padding: 19px;
+	width: 250px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#spotlight section.spot_container div.left div.top div.box .button { 
+	background: #1F6BFF;
+	background-clip: padding-box;
+	border:1px solid #1F6BFF ;
+	border-radius: 4px;
+	padding: 12px 22px;
+	display: inline-block;
+	height: 63px;
+	width: 150px;
+	color: #fff;
+}
+
+#spotlight section.spot_container div.left div.bottom { 
+
+}
+
+#spotlight section.spot_container div.left div.bottom ul { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#spotlight section.spot_container div.left div.bottom ul li { 
+
+}
+
+#spotlight section.spot_container div.left div.bottom ul li .img_container { 
+	display: block;
+	width: 100%;
+}
+
+#spotlight section.spot_container div.left div.bottom ul li .img_container img { 
+	display: block;
+	width: 100%;
+}
+
+#spotlight section.spot_container div.right { 
+
+}
+
+#spotlight section.spot_container div.right div.img { 
+
+}
+
+#spotlight section.spot_container div.right div.img img { 
+	display: block;
+	width: 100%;
+}
