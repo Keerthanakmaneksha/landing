@@ -203,7 +203,7 @@ header section.container nav.right ul li  a.button {
 #spotlight section.spot_container div.left div.top div.box { 
 	display: flex;
 	background: rgb(243, 241, 241);
-	width: 500px;
+	width: 531px;
 	border-radius: 5px;
 	height: 94px;
 	align-items: center;
@@ -218,7 +218,7 @@ header section.container nav.right ul li  a.button {
 	background: rgb(243, 241, 241);
 	border: 1px solid  rgb(243, 241, 241) ;
 	padding: 19px;
-	width: 339px;
+	width: 375px;
 	border-radius: 5px;
 	font-size: 20px;
 }
@@ -246,14 +246,14 @@ header section.container nav.right ul li  a.button {
 }
 
 #spotlight section.spot_container div.left div.bottom ul li { 
-	margin-right: 24px;
+	margin-right: 36px;
 }
 #spotlight section.spot_container div.left div.bottom ul li:last-child{ 
 	margin-right: 0px;
 }
 
 #spotlight section.spot_container div.left div.bottom ul li .img_container { 
-	width: 80px;
+	width: 78px;
 }
 
 #spotlight section.spot_container div.left div.bottom ul li .img_container img { 
@@ -272,4 +272,57 @@ header section.container nav.right ul li  a.button {
 #spotlight section.spot_container div.right div.img img { 
 	display: block;
 	width: 100%;
+}
+
+#product { 
+	height: 100vh;
+	padding: 100px 0px;
+}
+
+#product div.top { 
+	text-align: center;
+}
+
+#product div.top h4 { 
+	color: #FE9A52;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#product div.top h1 { 
+	font-size: 34px;
+	font-weight: 600;
+	margin: 34px;
+	text-align: center;
+	max-width: 300px;
+}
+
+#product div.bottom { 
+
+}
+
+#product div.bottom ul { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#product div.bottom ul li { 
+	width: 30%;
+}
+
+#product div.bottom ul li .img_contain { 
+	width: 300px;
+}
+
+#product div.bottom ul li .img_contain img { 
+	display: block;
+	width: 100%;
+}
+
+#product div.bottom ul li h4 { 
+
+}
+
+#product div.bottom ul li p { 
+
 }
