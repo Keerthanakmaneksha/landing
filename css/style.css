@@ -93,7 +93,7 @@ br.clear {
 header {
 	height: 70px;
 	background: #fff;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 header section.container {
 	display: flex;
@@ -163,7 +163,8 @@ header section.container nav.right ul li  a.button {
 	border-radius: 8px;
 }
 #spotlight { 
-	padding: 100px 0px 200px 0px;
+	padding: 70px 0px 200px 0px;
+	height: 100vh;
 }
 
 #spotlight section.spot_container { 
@@ -196,10 +197,16 @@ header section.container nav.right ul li  a.button {
 	font-size: 18px;
 	color: #898989;
 	margin-bottom: 40px;
+	max-width: 500px;
 }
 
 #spotlight section.spot_container div.left div.top div.box { 
 	display: flex;
+	background: rgb(243, 241, 241);
+	width: 500px;
+	border-radius: 5px;
+	height: 94px;
+	align-items: center;
 }
 
 #spotlight section .spot_container div.left div.top div.box form { 
@@ -211,7 +218,7 @@ header section.container nav.right ul li  a.button {
 	background: rgb(243, 241, 241);
 	border: 1px solid  rgb(243, 241, 241) ;
 	padding: 19px;
-	width: 250px;
+	width: 339px;
 	border-radius: 5px;
 	font-size: 20px;
 }
@@ -226,24 +233,27 @@ header section.container nav.right ul li  a.button {
 	height: 63px;
 	width: 150px;
 	color: #fff;
+	display: flex;
+	align-items: center;
 }
 
 #spotlight section.spot_container div.left div.bottom { 
-
+	margin: 40px 0;
 }
 
 #spotlight section.spot_container div.left div.bottom ul { 
 	display: flex;
-	justify-content: space-between;
 }
 
 #spotlight section.spot_container div.left div.bottom ul li { 
-
+	margin-right: 24px;
+}
+#spotlight section.spot_container div.left div.bottom ul li:last-child{ 
+	margin-right: 0px;
 }
 
 #spotlight section.spot_container div.left div.bottom ul li .img_container { 
-	display: block;
-	width: 100%;
+	width: 80px;
 }
 
 #spotlight section.spot_container div.left div.bottom ul li .img_container img { 
@@ -256,7 +266,7 @@ header section.container nav.right ul li  a.button {
 }
 
 #spotlight section.spot_container div.right div.img { 
-
+	width: 500px;
 }
 
 #spotlight section.spot_container div.right div.img img { 
