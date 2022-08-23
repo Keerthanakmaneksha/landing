@@ -339,3 +339,98 @@ header section.container nav.right ul li  a.button {
 	color: #898989;
 	max-width: 350px;
 }
+#finance { 
+	height: 100vh;
+	padding: 100px 0;
+}
+
+#finance section.container { 
+	display: flex;
+	justify-content: space-between;
+}
+
+#finance section.container div.left { 
+	padding-left: 100px;
+}
+
+#finance section.container div.left h1 { 
+	font-size: 46px;
+	font-weight: 600;
+	max-width: 500px;
+	margin: 40px 0;
+
+}
+
+#finance section.container div.left ul { 
+
+}
+
+#finance section.container div.left ul li { 
+
+}
+#finance section.container div.left ul li div.top { 
+	display: flex;
+}
+#finance section.container div.left ul li div.top h6 { 
+	font-size: 22px;
+	margin: 18px;
+	max-width: 500px;
+}
+#finance section.container div.left ul li div.top div.img { 
+	width: 20px;
+}
+#finance section.container div.left ul li div.top div.img img { 
+	display: block;
+	width: 100%;
+}
+
+#finance section.container div.left ul li div.top p { 
+	
+}
+#finance section.container div.left ul li div.top a img { 
+	
+}
+
+#finance section.container div.left ul li div.top a { 
+	
+}
+
+#finance section.container div.left ul li h6 { 
+	font-size: 22px;
+	margin: 18px;
+}
+
+#finance section.container div.left ul li div.img { 
+	width: 20px;
+}
+
+#finance section.container div.left ul li div.img img { 
+	display: block;
+	width: 100%;
+}
+
+#finance section.container div.left ul li p { 
+	color: #898989;
+	font-size: 18px;
+	
+}
+
+#finance section.container div.left ul li a { 
+
+}
+
+#finance section.container div.left ul li a img { 
+
+}
+
+#finance section.container div.right { 
+
+}
+
+#finance section.container div.right div.img_container { 
+
+}
+#finance section.container div.right div.img_container  img { 
+	display: block;
+	width: 100%;
+}
