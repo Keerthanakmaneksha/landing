@@ -419,11 +419,13 @@ header section.container nav.right ul li  a.button {
 }
 
 #app { 
-
+	height: 100vh;
+	padding: 160px 250px 160px 0;
 }
 
 #app section.container { 
-
+	display: flex;
+	justify-content: space-between;
 }
 
 #app section.container div.left { 
@@ -431,39 +433,62 @@ header section.container nav.right ul li  a.button {
 }
 
 #app section.container div.left div.background { 
-
+	width: 500px;
+	background: #1F6BFF;
+	height: 450px;
+	border: 1px solid #1F6BFF;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
 
 #app section.container div.left div.background div.img { 
-
+	width: 400px;
+	position: relative;
 }
 
 #app section.container div.left div.background div.img img { 
-
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: -75px;
+    left: 28px;
 }
 
 #app section.container div.right { 
-
+	
 }
 
 #app section.container div.right div.top { 
-
+	margin-top: 30px;
 }
 
 #app section.container div.right div.top h4 { 
-
+	color: #FE9A52;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 #app section.container div.right div.top h1 { 
-
+	color: #1e1e1e;
+	font-size: 46px;
+    font-weight: 600;
+    max-width: 500px;
+    margin: 36px 0;
 }
 
-#app section.container div.right div.top p { 
 
+#app section.container div.right div.top p { 
+	color: #898989;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0px 0 20px 0;
+	max-width: 450px;
 }
 
 #app section.container div.right div.bottom { 
-
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
 }
 
 #app section.container div.right div.bottom div.left { 
@@ -471,21 +496,23 @@ header section.container nav.right ul li  a.button {
 }
 
 #app section.container div.right div.bottom div.left div.img { 
-
+	width: 220px;
 }
 
 #app section.container div.right div.bottom div.left div.img img { 
-
+	display: block;
+	width: 100%;
 }
 
 #app section.container div.right div.bottom div.right { 
-
+	
 }
 
 #app section.container div.right div.bottom div.right div.img { 
-
+	width: 220px;
 }
 
 #app section.container div.right div.bottom div.right div.img img { 
-
+	display: block;
+	width: 100%;
 }
