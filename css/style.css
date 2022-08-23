@@ -357,7 +357,7 @@ header section.container nav.right ul li  a.button {
 	font-size: 46px;
 	font-weight: 600;
 	max-width: 500px;
-	margin: 40px 0;
+	margin: 36px 0;
 
 }
 
@@ -366,69 +366,52 @@ header section.container nav.right ul li  a.button {
 }
 
 #finance section.container div.left ul li { 
-
+	border-bottom: 1px solid #ecebeb;
+	margin-bottom:18px;
 }
 #finance section.container div.left ul li div.top { 
 	display: flex;
 }
 #finance section.container div.left ul li div.top h6 { 
 	font-size: 22px;
-	margin: 18px;
-	max-width: 500px;
-}
-#finance section.container div.left ul li div.top div.img { 
-	width: 20px;
-}
-#finance section.container div.left ul li div.top div.img img { 
-	display: block;
-	width: 100%;
-}
-
-#finance section.container div.left ul li div.top p { 
-	
-}
-#finance section.container div.left ul li div.top a img { 
-	
-}
-
-#finance section.container div.left ul li div.top a { 
-	
-}
-
-#finance section.container div.left ul li h6 { 
-	font-size: 22px;
-	margin: 18px;
-}
-
-#finance section.container div.left ul li div.img { 
-	width: 20px;
-}
-
-#finance section.container div.left ul li div.img img { 
-	display: block;
-	width: 100%;
+	margin: 0 0 18px 0;
+	max-width: 600px;
 }
 
 #finance section.container div.left ul li p { 
 	color: #898989;
 	font-size: 18px;
-	
+	font-weight: 500;
+	margin: 0px 0 10px 0;
+	max-width: 500px;
 }
 
-#finance section.container div.left ul li a { 
-
+#finance section.container div.left ul li a {
+	color: #FE9A52;
+	font-size: 20px;
+	margin-bottom: 20px;
+	display:inline-block;
+}
+#finance section.container div.left ul li h6 { 
+	font-size: 22px;
+	margin: 0 0 18px 0;
+	max-width: 600px;
 }
 
-#finance section.container div.left ul li a img { 
+#finance section.container div.left ul li h6 span { 
 
+}
+#finance section.container div.left ul li h6 span image { 
+	width: 14px;
 }
 
 #finance section.container div.right { 
-
+	padding-right: 50px;
+	margin-top: 50px;
 }
 
 #finance section.container div.right div.img_container { 
-
+	width: 600px;
 }
 #finance section.container div.right div.img_container  img { 
 	display: block;
