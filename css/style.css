@@ -66,16 +66,16 @@ br.clear {
 }
 @font-face {
     font-family: 'gorditabold';
-    src: url('gordita_bold-webfont.woff2') format('woff2'),
-         url('gordita_bold-webfont.woff') format('woff');
+    src: url('../fonts/gordita_bold-webfont.woff2') format('woff2'),
+         url('../fonts/gordita_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'gorditamedium';
-    src: url('gordita_medium-webfont.woff2') format('woff2'),
-         url('gordita_medium-webfont.woff') format('woff');
+    src: url('../fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('../fonts/gordita_medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,8 +83,8 @@ br.clear {
 
 @font-face {
     font-family: 'gorditaregular';
-    src: url('gordita_regular-webfont.woff2') format('woff2'),
-         url('gordita_regular-webfont.woff') format('woff');
+    src: url('../fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('../fonts/gordita_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -546,7 +546,7 @@ header section.container nav.right ul li  a.button {
 
 #testimonials section.top p { 
 	color: #898989;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 500;
 	margin: 0px 0 20px 0;
 	max-width: 500px;
@@ -600,22 +600,24 @@ header section.container nav.right ul li  a.button {
 
 #testimonials section.bottom ul li div.top p { 
 	color: #898989;
-	font-size: 18px;
-	max-width: 280px;
+	font-size: 16px;
+	max-width: 300px;
 	margin-top: 20px;
 	margin: 0 auto;
 }
 
 #testimonials section.bottom ul li div.bottom { 
-
+	display: flex;
 }
 
-#testimonials section.bottom ul li div.bottom span { 
-
+#testimonials section.bottom ul li div.bottom span.profile { 
+	margin: 20px;
 }
 
-#testimonials section.bottom ul li div.bottom span img { 
-
+#testimonials section.bottom ul li div.bottom span.profile img { 
+	display: block;
+	width: 40px;
+	border-radius: 50%;
 }
 
 #testimonials section.bottom ul li div.bottom div.label { 
@@ -636,7 +638,10 @@ header section.container nav.right ul li  a.button {
 	margin-top: 20px;
 }
 #testimonials section.line {
-	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 35px;
 }
 
 #testimonials section.line div.slide {
@@ -646,15 +651,127 @@ header section.container nav.right ul li  a.button {
 #testimonials section.line div.slide ul {
 	display: flex;
 	justify-content: space-between;
-	width: 300px;
+	width: 100px;
 } 
 
 #testimonials section.line div.slide ul li {
-	background: red;
-	width: 50px;
+
 } 
 
 #testimonials section.line div.slide ul li div {
-	background: ;
-	width: 50px;
+	background:	#898989 ;
+	width: 25px;
+	height: 5px;
+	border-radius: 2px;
 } 
+#testimonials section.line div.slide ul li div:hover {
+	background: #1f6bff;
+}
+
+footer { 
+	background: #1e1e1e;
+	padding: 70px;
+}
+
+footer section.wrapper { 
+
+}
+
+footer section.wrapper section.container { 
+	
+}
+
+footer section.wrapper section.container section.top { 
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #79859F;
+	margin-bottom: 5px;
+}
+
+footer section.wrapper section.container section.top div.left { 
+	width: 40%;
+	margin-bottom: 30px;
+
+}
+
+footer section.wrapper section.container section.top div.left div.icon { 
+	width: 150px;
+}
+
+footer section.wrapper section.container section.top div.left div.icon img { 
+	display: block;
+	width: 100%;
+}
+
+footer section.wrapper section.container section.top div.left h4 { 
+	font-size: 14px;
+	color: #79859F;
+	margin: 20px 0;
+	max-width: 250px;
+}
+
+footer section.wrapper section.container section.top div.right { 
+	display: flex;
+	width: 55%;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+
+footer section.wrapper section.container section.top div.right div.item { 
+	width: 40%;
+}
+
+footer section.wrapper section.container section.top div.right div.item h6 { 
+	font-size: 16px;
+	color: #fff; 
+	margin: 20px 0;       
+}
+
+footer section.wrapper section.container section.top div.right div.item ul { 
+
+}
+
+footer section.wrapper section.container section.top div.right div.item ul li { 
+
+}
+
+footer section.wrapper section.container section.top div.right div.item ul li a { 
+	font-size: 14px;
+	color: #79859F;
+}
+
+footer section.wrapper section.container section.bottom { 
+	display: flex;
+	justify-content: space-between;
+}
+
+footer section.wrapper section.container section.bottom div.left { 
+	
+}
+
+footer section.wrapper section.container section.bottom div.left a { 
+	font-size: 14px;
+	color: #79859F;
+}
+
+footer section.wrapper section.container section.bottom div.right { 
+	
+}
+
+footer section.wrapper section.container section.bottom div.right ul { 
+	display: flex;
+	
+}
+
+footer section.wrapper section.container section.bottom div.right ul li { 
+	margin-right: 20px;
+}
+footer section.wrapper section.container section.bottom div.right ul li:last-child{ 
+	margin-right: 0;
+}
+
+footer section.wrapper section.container section.bottom div.right ul li a { 
+	font-size: 14px;
+	color: #79859F;
+}
