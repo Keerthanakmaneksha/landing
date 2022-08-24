@@ -775,3 +775,189 @@ footer section.wrapper section.container section.bottom div.right ul li a {
 	font-size: 14px;
 	color: #79859F;
 }
+
+@media all and (max-width:1440px){
+	
+}
+
+@media all and (max-width:1280px){
+	header section.container nav.right ul li {
+		margin-right: 15px;
+	}
+	header section.container nav.right ul li  a.button {
+		padding: 10px 18px;
+	}
+	#spotlight { 
+		padding: 70px 0px;
+		
+	}
+	#spotlight section.spot_container div.right div.img { 
+		width: 420px;
+	}
+	#finance section.container div.left ul li h6 span img { 
+		width: 14px;
+	}
+
+	#app {
+		padding: 50px 0;
+	}
+	
+	#app section.container div.left div.background {
+		width: 450px;
+		margin-right: 100px;
+	}
+	#app section.container div.left div.background div.img { 
+		width: 350px;
+	}
+	#app section.container div.right div.bottom div.right div.img { 
+		width: 150px;
+	}
+	#app section.container div.right div.bottom div.left div.img { 
+		width: 150px;
+		margin-right: 30px;
+	}
+}
+
+@media all and (max-width:1050px){
+	header section.container div.left ul {
+		margin-left: 150px;
+	}
+	header section.container nav.right ul li {
+		margin-right: 15px;
+	}
+	header section.container nav.right ul li  a.button {
+		padding: 12px 4px;
+	}
+	#spotlight section.spot_container div.right div.img {
+		width: 389px;
+	}
+	#finance section.container div.right div.img_container {
+		width: 510px;
+		margin-top: 100px;
+	}
+	#app section.container div.right div.bottom {
+		display: flex;
+		padding: 0 35px;
+	}
+	#app section.container div.right div.bottom div.left div.img { 
+		margin-right: 0px;
+	}
+	#testimonials section.bottom ul li div.top p {
+		max-width: 200px;
+	}
+}
+
+@media all and (max-width:980px){
+	header section.container div.left ul {
+		display: none;
+	}
+	header section.container nav.right {
+		margin-left: 30px;
+	}
+	header section.container nav.right ul li a.button {
+		padding: 12px 20px;
+	}
+	#spotlight section.spot_container div.left {
+		width: 50%;
+	}
+	#spotlight section.spot_container div.left div.top h1 {
+		font-size: 45px;
+	}
+	#spotlight section.spot_container div.left div.top p {
+    	font-size: 18px;
+    	max-width: 400px;
+	}
+	#spotlight section.spot_container div.left div.top div.box {
+		width: 387px;
+	}
+	#spotlight section.spot_container div.left div.top div.box form input[type=text] {
+    	width: 229px;
+	}
+	#spotlight section.spot_container div.right div.img {
+		width: 303px;
+	}
+	#product div.bottom ul {
+    	flex-wrap: wrap;
+    	margin: 30px auto;
+	}
+	#product div.bottom ul li {
+    	margin:0 auto;
+    	width: 66%;
+		margin-right: 0;
+		margin-top: 50px;
+	}
+	#product div.bottom ul li .img_contain {
+    width: 280px;	
+	}
+	#finance section.container div.left {
+		padding-left: 85px;
+		width: 50%;
+	}
+	#finance section.container div.right {
+		padding-right: 50px;
+		margin-top: 130px;
+		width: 47%;
+	}
+	#finance section.container div.right div.img_container {
+		width: 359px;
+		margin-top: 200px;
+	}
+	#app section.container div.right div.bottom {
+		padding: 0 15px;		
+	}
+	#app section.container div.left div.background {
+		width: 362px;
+		margin-right: 0px;
+	}
+	#app section.container div.left div.background div.img {
+		width: 300px;
+	}
+	#app section.container div.left div.background div.img img {
+		top: -25px;
+	}
+	#app section.container div.right div.top h1 {
+		font-size: 24px;
+		max-width: 308px;
+	}
+	#app section.container div.right div.top p {
+		font-size: 16px;
+		max-width: 300px;
+	}
+	#app section.container div.right div.bottom div.left div.img {
+    	width: 120px;
+	}
+	#app section.container div.right div.bottom div.right div.img { 
+		width: 120px;
+	}
+	#product div.bottom ul li p {
+		max-width: 450px;
+	}
+	#testimonials section.bottom ul li div.top p {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	footer section.wrapper section.container section.top div.left h4 {
+		max-width: 197px;
+	}
+	footer section.wrapper section.container section.top div.right {
+		width: 64%;
+	}
+}
+
+@media all and (max-width:768px){
+
+}
+
+@media all and (max-width:640px){
+
+}
+
+@media all and (max-width:480px){
+
+}
+
+@media all and (max-width:360px){
+
+}
+
+/* responsive ends*/
