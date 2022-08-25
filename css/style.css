@@ -945,19 +945,293 @@ footer section.wrapper section.container section.bottom div.right ul li a {
 }
 
 @media all and (max-width:768px){
-
+	#spotlight section.spot_container div.left div.top h1 {
+		font-size: 40px;
+	}
+	#finance {
+		padding: 0;
+	}
+	#finance section.container {
+		    height: 865px;
+    flex-wrap: wrap-reverse;
+	}
+	#finance section.container div.left {
+		width: 90%;
+	}
+	#finance section.container div.right div.img_container {
+		width: 527px;
+		margin-top: 200px;
+		margin-left: 87px;
+	}
+	#app section.container {
+		flex-wrap: wrap;
+	}
+	#app section.container div.left {
+		width: 80%;
+		margin: 0 auto;
+	}
+	#app section.container div.left div.background {
+		width: 362px;
+		margin: 0 auto;
+	}
+	#app section.container div.right {
+		width: 60%;
+		margin: 0 auto;
+	}
+	#app section.container div.right div.top p {
+    	font-size: 16px;
+    	max-width: 100%;
+	}
+	#app section.container div.right div.top h1 {
+    	max-width: 100%;
+		font-size: 30px;
+	}
+	#testimonials section.bottom ul {
+		flex-wrap: wrap;
+		width: 80%;
+		margin: 0 auto;
+	}
+	#testimonials section.bottom ul li {
+		width: 43.33%;
+		margin-bottom: 30px;
+	}
+	footer {
+		background: #1e1e1e;
+		padding: 50px 20px;
+	}
+	footer section.wrapper section.container section.top div.left h4 {
+		font-size: 13px;
+	}
+	footer section.wrapper section.container section.top div.right div.item ul li a {
+		font-size: 13px;
+	}
+	footer section.wrapper section.container section.top div.right {
+		flex-wrap: wrap;
+	}
+	footer section.wrapper section.container section.top div.left {
+		width: 57%;
+	}
+	footer section.wrapper section.container section.top div.left h4 {
+		max-width: 95%;
+	}
 }
-
 @media all and (max-width:640px){
-
+	header section.container nav.right ul li a.button {
+		font-size: 12px;
+	}
+	header section.container div.left h1 {
+		width: 160px;
+	}
+	header section.container nav.right ul li a {
+		font-size: 12px;
+	}
+	#spotlight {
+		padding: 25px 0px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li .img_container {
+		width: 43px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li:nth-child(3) {
+		margin-top: -6px;
+	}
+	#product {
+		padding: 23px 0px;
+		margin: 0px auto;
+	}
+	#product div.bottom ul li {
+		width: 84%;
+	}
+	#spotlight section.spot_container div.left div.top h5 {
+		font-size: 14px;
+	}
+	#spotlight section.spot_container div.left div.top h1 {
+		font-size: 32px;
+	}
+	#spotlight section.spot_container div.left div.top p {
+		font-size: 13px
+	}	
+	#spotlight section.spot_container div.right div.img {
+		width: 195px;
+	}
+	#spotlight section.spot_container div.left div.top div.box form input[type=text] {
+		font-size: 16px;
+	}
+	#spotlight section.spot_container div.left div.top div.box {
+		height: 70px;
+	}
+	#spotlight section.spot_container div.left div.top div.box .button {
+		height: 44px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li:nth-child(3) {
+		margin-top: 20px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li:nth-child(3) {
+		margin-top: -8px;
+	}
+	#finance section.container div.right {
+		display: none;
+	}
+	#finance section.container div.left h1 {
+		font-size: 40px;
+	}
+	#finance section.container {
+		height: 677px;
+	}
+	#app {
+		padding: 15px 0;
+	}
 }
 
 @media all and (max-width:480px){
-
+	header section.container div.left h1 {
+		width: 113px;
+	}
+	header section.container nav.right ul li a.button {
+		padding: 8px 4px;
+	}
+	header section.container nav.right ul li a.button {
+		font-size: 11px;
+	}
+	#spotlight section.spot_container div.right {
+		display: none;
+	}
+	#spotlight section.spot_container div.left {
+		width: 90%;
+	}
+	#spotlight section.spot_container div.left div.top p {
+		font-size: 16px;
+	}
+	#spotlight section.spot_container div.left div.top h1 {
+		font-size: 36px;
+		margin: 32px 0;
+	}
+	#spotlight section.spot_container div.left div.top h5 {
+		font-size: 18px;
+	}
+	#spotlight section.spot_container div.left div.top div.box {
+		width: 277px;
+	}
+	#spotlight section.spot_container div.left div.top div.box form input[type=text] {
+		font-size: 10px;
+	}
+	#spotlight section.spot_container div.left div.top div.box .button {
+		height: 27px;
+		font-size: 10px;
+		padding: 20px 22px;
+		width: 99px;
+	}
+	#spotlight section.spot_container div.left div.top div.box form input[type=text] {
+		width: 149px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li .img_container {
+		width: 46px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li {
+		margin-right: 15px;
+	}
+	#spotlight section.spot_container div.left div.bottom ul li:nth-child(3) {
+		margin-top: -4px;
+	}
+	#product div.top h1 {
+		font-size: 22px;
+	}
+	#product div.bottom ul li .img_contain {
+		width: 222px;
+	}
+	#product div.bottom ul li p {
+		font-size: 14px;
+	}
+	#finance section.container div.left h1 {
+		font-size: 27px;
+	}
+	#finance section.container div.left ul li p {
+		font-size: 15px;
+	}
+	#app{
+		margin-bottom: 30px;
+	}
+	#app section.container div.left div.background {
+		width: 267px;
+		height: 350px;
+	}
+	#app section.container div.left div.background div.img {
+		width: 245px;
+	}
+	#app section.container div.right {
+		width: 80%;
+	}
+	#app section.container div.right div.top h1 {
+		font-size: 28px;
+	}
+	#app section.container div.right div.top p {
+		font-size: 14px;
+	}
+	#testimonials section.top h1 {
+		font-size: 35px;
+	}
+	#testimonials section.bottom ul li {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#testimonials section.bottom ul li div.top div.icon {
+		width: 100px;
+		margin: 0 auto;
+	}
+	#testimonials section.bottom ul li {
+		margin: 0 auto 30px;
+	}	
+	footer section.wrapper section.container section.top {
+		flex-wrap: wrap;
+	}
+	footer section.wrapper section.container section.top div.left {
+		width: 95%;
+	}
+	footer section.wrapper section.container section.top div.right {
+		width: 92%;
+	}
+	footer section.wrapper section.container section.bottom div.right ul li a {
+		font-size: 10px;
+	}
+	footer section.wrapper section.container section.bottom div.left a {
+		font-size: 11px;
+	}
 }
 
 @media all and (max-width:360px){
-
+	header section.container div.left h1 {
+		width: 88px;
+	}
+	header section.container nav.right ul li a.button {
+		padding: 14px 3px;
+		font-size: 11px;
+	}
+	#finance section.container div.left h1 {
+		font-size: 25px;
+	}
+	#finance section.container div.left ul li div.top h6 {
+		font-size: 19px;
+	}
+	#finance section.container div.left ul li h6 {
+    	font-size: 19px;
+	}
+	#finance section.container div.left ul li h6 span img {
+		width: 10px;
+	}
+	#app section.container div.right div.top p {
+		max-width: 87%;
+	}
+	#app section.container div.right div.bottom div.left div.img {
+		margin-right: 14px;
+	}
+	#testimonials section.top p {
+	width: 284px;
+	}
+	#testimonials section.bottom ul li div.top p {
+		font-size: 12px;
+	}
+	#testimonials section.bottom ul li div.bottom div.label small{
+		font-size: 13px;
+	} 
 }
 
 /* responsive ends*/
